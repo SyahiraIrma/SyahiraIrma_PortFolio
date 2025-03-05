@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Syahira Irma's Portfolio</title>
+     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="mediaquaries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nur Syahira Irma</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nur Syahira Irma</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic-1.jpg" alt="Nur Syahira Irma profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Nur Syahira Irma</h1>
+            <p class="section_text_p2">Fresh Graduate in Software Engineering</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href = 'https://www.linkedin.com/in/nursyahirairma/'"/>
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href = 'https://github.com/'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-cointainer about-container" >
+            <div class="section_pic-container">
+                <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="text-container">
+                <p>
+                    I am a Bachelor of Software Engineering (Information System Development) (Hons.) student at the Universiti Kebangsaan Malaysia (UKM), with practical experience in web and mobile application development. 
+                    I successfully completed an internship at Top Click Sdn. Bhd. as a web developer, where I designed and developed client websites using WordPress. 
+                    My academic experience includes developing web-based systems and leading a team as a project manager for an Android application.
+                    I possess strong leadership, teamwork, communication, and problem-solving skills. My career interests focus on software engineering, development, 
+                    and data engineering, and I am eager to contribute to innovative and impactful projects.
+                </p>
+            </div>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container" >
+                    <img src="./assets/topclick.png" alt="Experience icon" class="icon" />
+                    <h3>Internship</h3>
+                    <p>Top Click Sdn. Bhd. <br/>Frontend Developer <br>(4 Months)</p>
+                </div>
+                <div class="details-container" >
+                    <img src="./assets/UKMOfficialLogo.png" alt="Education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p>Universiti Kebangsaan Malaysia (UKM)<br>Bachelor of Software Engineering (Information System Develoment) with Honours</p>
+                </div>
+                <div class="details-container" >
+                    <img src="./assets/ibisnes.jpeg" alt="Education icon" class="icon"/>
+                    <h3>Club</h3>
+                    <p>Inovasi Bisnes (i-Bisnes)<br>Treasurer<br>(2022-2023)</p>
+                </div>
+                <div class="details-container" >
+                    <img src="./assets/pertama_logo.png" alt="Education icon" class="icon"/>
+                    <h3>Organization</h3>
+                    <p>Persatuan Mahasiswa Fakulti Teknologi & Sains Maklumat (PERTAMA)<br>Vice EXCO Sahsiah & Kerohanian<br>(2022-2023)</p>
+                </div>
+                <div class="details-container" >
+                    <img src="./assets/logo-ftsm-black.png" alt="Education icon" class="icon"/>
+                    <h3>Academic</h3>
+                    <p>Faculty of Information Science & Technology (FTSM)<br>Dean's List Awards<br>Semester 2, 3 & 6</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience in Developing</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/html.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/css.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        </article>
+                        <article>
+                            <img src="./assets/java.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Python.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/javascript.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/visual-studio-code.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Visual Studio Code</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/android-studio.jpeg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Android Studio</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/eclipse.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Eclipse</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/sublime.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Sublime</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/figma.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/PMUPGE.png" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project">Platform Mampan Untuk Pekerja Gig Ekonomi</h2>
+                <div>
+                    A dedicated platform for FTSM students and fresh graduates specializing in IT to showcase their skills and secure freelance opportunities. 
+                    This website connects talented individuals with clients seeking expertise in app development, website creation, and other IT-related tasks. 
+                    Students can build their portfolios while clients can easily hire skilled professionals for their projects, ensuring quality work and valuable experience.
+                </div>
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/carfriendly.png" alt="project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project">Car Friendly</h2>
+            <div>
+                Offering car rentals exclusively for students, by students! Our service is designed to meet the unique needs of student life, 
+                providing affordable, reliable, and flexible rental options. Whether it’s for errands, road trips, or heading home for the holidays, 
+                we’ve got you covered!
+             </div>
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/gemstone.png" alt="project three" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project">Gem Stones Shop</h2>
+            <div>
+                Gem Stones Shop is an online store dedicated to providing a wide variety of high-quality gemstones to customers worldwide. 
+                Our platform offers a seamless shopping experience, allowing you to browse through an extensive collection of authentic gemstones, 
+                including rare and unique pieces. With detailed product descriptions, secure payment options, and reliable delivery services,
+                we aim to make it convenient for you to find and purchase the perfect gemstones for personal use, gifts, or collections. Whether you're a seasoned collector or a first-time buyer, Gem Stones Shop is your trusted destination for all things gemstones.
+             </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:syahirairma01@gmail.com">syahirairma01@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/nursyahirairma/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Syahira Irma. All Right Reserved. </p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+ <!--img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience '" /> -->
+</html>
